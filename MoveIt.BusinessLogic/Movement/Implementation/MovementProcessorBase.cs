@@ -1,5 +1,7 @@
 ﻿using MoveIt.BusinessLogic.Conditions;
+using MoveIt.BusinessLogic.Extensions;
 using MoveIt.BusinessLogic.Rates;
+using MoveIt.BusinessLogic.Volumes;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -19,8 +21,12 @@ namespace MoveIt.BusinessLogic.Movement.Implementation
 
         public abstract RateBase CreateRate(double distance, double volume, bool piano);
 
-        public double GetRate(double volume, bool piano)
+        public double GetRate(double baseVolume, 
+            double atticVolume,
+            bool piano)
         {
+            var volume = this.GetTotalVolume(baseVolume, atticVolume);
+
             var rate = this.CreateRate(this.Distance, volume, piano);
 
             var price = rate.GetPrice();
@@ -33,6 +39,17 @@ namespace MoveIt.BusinessLogic.Movement.Implementation
             }
 
             return price;
+        }
+
+        private double GetTotalVolume(double ordinaryVolume, double atticVolume)
+        {
+            var volumes = new List<VolumeBase>
+            {
+                new AtticVolume(atticVolume),
+                new OrdinaryVolume(ordinaryVolume)
+            };
+
+            return volumes.GetTotalVolume();
         }
     }
 }

@@ -20,7 +20,7 @@ namespace MoveIt.BusinessLogic.Rates
 
         protected double GetCarsCount(double volume)
         {
-            return Math.Round(volume / DefaultVolumePerCar);
+            return Math.Ceiling(volume / DefaultVolumePerCar);
         }
 
         public double GetPrice()

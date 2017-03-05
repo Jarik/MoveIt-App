@@ -35,6 +35,8 @@
             this.btnCalc = new System.Windows.Forms.Button();
             this.lblCalculatedRate = new System.Windows.Forms.Label();
             this.cbPiano = new System.Windows.Forms.CheckBox();
+            this.tbAtticVolume = new System.Windows.Forms.TextBox();
+            this.label3 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // label1
@@ -51,9 +53,9 @@
             this.label2.AutoSize = true;
             this.label2.Location = new System.Drawing.Point(12, 49);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(45, 13);
+            this.label2.Size = new System.Drawing.Size(71, 13);
             this.label2.TabIndex = 1;
-            this.label2.Text = "Volume:";
+            this.label2.Text = "Base volume:";
             // 
             // tbDistance
             // 
@@ -71,7 +73,7 @@
             // 
             // btnCalc
             // 
-            this.btnCalc.Location = new System.Drawing.Point(15, 104);
+            this.btnCalc.Location = new System.Drawing.Point(15, 148);
             this.btnCalc.Name = "btnCalc";
             this.btnCalc.Size = new System.Drawing.Size(75, 23);
             this.btnCalc.TabIndex = 7;
@@ -82,7 +84,7 @@
             // lblCalculatedRate
             // 
             this.lblCalculatedRate.AutoSize = true;
-            this.lblCalculatedRate.Location = new System.Drawing.Point(12, 148);
+            this.lblCalculatedRate.Location = new System.Drawing.Point(12, 192);
             this.lblCalculatedRate.Name = "lblCalculatedRate";
             this.lblCalculatedRate.Size = new System.Drawing.Size(0, 13);
             this.lblCalculatedRate.TabIndex = 5;
@@ -90,18 +92,36 @@
             // cbPiano
             // 
             this.cbPiano.AutoSize = true;
-            this.cbPiano.Location = new System.Drawing.Point(15, 81);
+            this.cbPiano.Location = new System.Drawing.Point(15, 125);
             this.cbPiano.Name = "cbPiano";
             this.cbPiano.Size = new System.Drawing.Size(53, 17);
             this.cbPiano.TabIndex = 6;
             this.cbPiano.Text = "Piano";
             this.cbPiano.UseVisualStyleBackColor = true;
             // 
+            // tbAtticVolume
+            // 
+            this.tbAtticVolume.Location = new System.Drawing.Point(103, 68);
+            this.tbAtticVolume.Name = "tbAtticVolume";
+            this.tbAtticVolume.Size = new System.Drawing.Size(204, 20);
+            this.tbAtticVolume.TabIndex = 5;
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(12, 75);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(68, 13);
+            this.label3.TabIndex = 8;
+            this.label3.Text = "Attic volume:";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(646, 261);
+            this.Controls.Add(this.tbAtticVolume);
+            this.Controls.Add(this.label3);
             this.Controls.Add(this.cbPiano);
             this.Controls.Add(this.lblCalculatedRate);
             this.Controls.Add(this.btnCalc);
@@ -125,6 +145,8 @@
         private System.Windows.Forms.Button btnCalc;
         private System.Windows.Forms.Label lblCalculatedRate;
         private System.Windows.Forms.CheckBox cbPiano;
+        private System.Windows.Forms.TextBox tbAtticVolume;
+        private System.Windows.Forms.Label label3;
     }
 }
 
