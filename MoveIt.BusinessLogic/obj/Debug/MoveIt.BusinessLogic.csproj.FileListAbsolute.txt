@@ -1,0 +1,10 @@
+D:\Projects\MoveIt-app\MoveIt.BusinessLogic\obj\Debug\MoveIt.BusinessLogic.csprojResolveAssemblyReference.cache
+D:\Projects\MoveIt-app\MoveIt.BusinessLogic\bin\Debug\MoveIt.BusinessLogic.dll
+D:\Projects\MoveIt-app\MoveIt.BusinessLogic\bin\Debug\MoveIt.BusinessLogic.pdb
+D:\Projects\MoveIt-app\MoveIt.BusinessLogic\obj\Debug\MoveIt.BusinessLogic.dll
+D:\Projects\MoveIt-app\MoveIt.BusinessLogic\obj\Debug\MoveIt.BusinessLogic.pdb
+D:\Projects\MoveIt-app\MoveIt-App\MoveIt.BusinessLogic\bin\Debug\MoveIt.BusinessLogic.dll
+D:\Projects\MoveIt-app\MoveIt-App\MoveIt.BusinessLogic\bin\Debug\MoveIt.BusinessLogic.pdb
+D:\Projects\MoveIt-app\MoveIt-App\MoveIt.BusinessLogic\obj\Debug\MoveIt.BusinessLogic.csprojResolveAssemblyReference.cache
+D:\Projects\MoveIt-app\MoveIt-App\MoveIt.BusinessLogic\obj\Debug\MoveIt.BusinessLogic.dll
+D:\Projects\MoveIt-app\MoveIt-App\MoveIt.BusinessLogic\obj\Debug\MoveIt.BusinessLogic.pdb

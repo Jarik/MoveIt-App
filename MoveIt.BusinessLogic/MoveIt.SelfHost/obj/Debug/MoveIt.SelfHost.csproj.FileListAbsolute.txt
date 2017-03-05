@@ -1,0 +1,8 @@
+D:\Projects\MoveIt-app\MoveIt.BusinessLogic\MoveIt.SelfHost\bin\Debug\MoveIt.SelfHost.exe.config
+D:\Projects\MoveIt-app\MoveIt.BusinessLogic\MoveIt.SelfHost\bin\Debug\MoveIt.SelfHost.exe
+D:\Projects\MoveIt-app\MoveIt.BusinessLogic\MoveIt.SelfHost\bin\Debug\MoveIt.SelfHost.pdb
+D:\Projects\MoveIt-app\MoveIt.BusinessLogic\MoveIt.SelfHost\obj\Debug\MoveIt.SelfHost.csprojResolveAssemblyReference.cache
+D:\Projects\MoveIt-app\MoveIt.BusinessLogic\MoveIt.SelfHost\obj\Debug\MoveIt.SelfHost.Properties.Resources.resources
+D:\Projects\MoveIt-app\MoveIt.BusinessLogic\MoveIt.SelfHost\obj\Debug\MoveIt.SelfHost.csproj.GenerateResource.Cache
+D:\Projects\MoveIt-app\MoveIt.BusinessLogic\MoveIt.SelfHost\obj\Debug\MoveIt.SelfHost.exe
+D:\Projects\MoveIt-app\MoveIt.BusinessLogic\MoveIt.SelfHost\obj\Debug\MoveIt.SelfHost.pdb
