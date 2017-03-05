@@ -1,4 +1,6 @@
 ﻿using MoveIt.BusinessLogic.Extensions;
+using MoveIt.BusinessLogic.Services;
+using MoveIt.BusinessLogic.Services.Implementation;
 using MoveIt.Desktop.Receiver;
 using MoveIt.Models;
 using System;
@@ -8,6 +10,10 @@ namespace MoveIt.Desktop
 {
     public partial class Form1 : Form
     {
+        // IT ISN'T DI - Time limitation
+
+        public IVolumeService VolumeService = new VolumeService();
+
         public Form1()
         {
             InitializeComponent();
@@ -25,7 +31,9 @@ namespace MoveIt.Desktop
 
             var movementProcessor = distance.CreateMovement();
 
-            double rate = movementProcessor.GetRate(ordinaryVolume, atticVolume, cbPiano.Checked);
+            var volume = this.VolumeService.GetTotalVolume(ordinaryVolume, atticVolume);
+
+            double rate = movementProcessor.GetRate(volume, cbPiano.Checked);
 
             lblCalculatedRate.Text = rate.ToString();
         }
@@ -50,9 +58,16 @@ namespace MoveIt.Desktop
                 Piano = cbAPIPiano.Checked
             };
 
-            var rate = await receiver.CalculateRate(model);
+            try
+            {
+                var rate = await receiver.CalculateRate(model);
 
-            lblAPIRate.Text = rate.ToString();
+                lblAPIRate.Text = rate.ToString();
+            }
+            catch (Exception err)
+            {
+                MessageBox.Show(err.Message);
+            }
         }
     }
 }

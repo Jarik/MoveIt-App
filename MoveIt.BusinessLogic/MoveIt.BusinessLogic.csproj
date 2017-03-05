@@ -43,7 +43,6 @@
     <Compile Include="Conditions\PianoCondition.cs" />
     <Compile Include="Conditions\SpecificConditionBase.cs" />
     <Compile Include="Extensions\DistanceExtensions.cs" />
-    <Compile Include="Extensions\VolumeExtensions.cs" />
     <Compile Include="Movement\IMovementProcessor.cs" />
     <Compile Include="Movement\Implementation\LargeMovementProcessor.cs" />
     <Compile Include="Movement\Implementation\MediumMovementProcessor.cs" />
@@ -54,6 +53,8 @@
     <Compile Include="Rates\MediumRate.cs" />
     <Compile Include="Rates\RateBase.cs" />
     <Compile Include="Rates\SmallRate.cs" />
+    <Compile Include="Services\Implementation\VolumeService.cs" />
+    <Compile Include="Services\IVolumeService.cs" />
     <Compile Include="Volumes\AtticVolume.cs" />
     <Compile Include="Volumes\OrdinaryVolume.cs" />
     <Compile Include="Volumes\VolumeBase.cs" />
