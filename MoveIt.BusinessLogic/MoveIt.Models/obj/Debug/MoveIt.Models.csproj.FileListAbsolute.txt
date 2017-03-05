@@ -1,0 +1,5 @@
+D:\Projects\MoveIt-app\MoveIt-App\MoveIt.BusinessLogic\MoveIt.Models\bin\Debug\MoveIt.Models.dll
+D:\Projects\MoveIt-app\MoveIt-App\MoveIt.BusinessLogic\MoveIt.Models\bin\Debug\MoveIt.Models.pdb
+D:\Projects\MoveIt-app\MoveIt-App\MoveIt.BusinessLogic\MoveIt.Models\obj\Debug\MoveIt.Models.csprojResolveAssemblyReference.cache
+D:\Projects\MoveIt-app\MoveIt-App\MoveIt.BusinessLogic\MoveIt.Models\obj\Debug\MoveIt.Models.dll
+D:\Projects\MoveIt-app\MoveIt-App\MoveIt.BusinessLogic\MoveIt.Models\obj\Debug\MoveIt.Models.pdb

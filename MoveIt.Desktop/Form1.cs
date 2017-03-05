@@ -1,4 +1,6 @@
 ﻿using MoveIt.BusinessLogic.Extensions;
+using MoveIt.Desktop.Receiver;
+using MoveIt.Models;
 using System;
 using System.Windows.Forms;
 
@@ -26,6 +28,31 @@ namespace MoveIt.Desktop
             double rate = movementProcessor.GetRate(ordinaryVolume, atticVolume, cbPiano.Checked);
 
             lblCalculatedRate.Text = rate.ToString();
+        }
+
+        private async void btnCalcByAPI_Click(object sender, EventArgs e)
+        {
+            RateReceiver receiver = new RateReceiver();
+
+            double distance = 0;
+            double ordinaryVolume = 0;
+            double atticVolume = 0;
+
+            double.TryParse(tbAPIDistance.Text, out distance);
+            double.TryParse(tbAPIBaseVolume.Text, out ordinaryVolume);
+            double.TryParse(tbAPIAtticVolume.Text, out atticVolume);
+
+            var model = new MovementModel
+            {
+                AtticVolume = atticVolume,
+                Distance = distance,
+                OrdinaryVolume = ordinaryVolume,
+                Piano = cbAPIPiano.Checked
+            };
+
+            var rate = await receiver.CalculateRate(model);
+
+            lblAPIRate.Text = rate.ToString();
         }
     }
 }

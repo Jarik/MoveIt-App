@@ -1,0 +1,13 @@
+D:\Projects\MoveIt-app\MoveIt-App\MoveIt.SelfHosted\bin\Debug\MoveIt.SelfHosted.exe
+D:\Projects\MoveIt-app\MoveIt-App\MoveIt.SelfHosted\bin\Debug\Newtonsoft.Json.dll
+D:\Projects\MoveIt-app\MoveIt-App\MoveIt.SelfHosted\bin\Debug\System.Net.Http.Formatting.dll
+D:\Projects\MoveIt-app\MoveIt-App\MoveIt.SelfHosted\bin\Debug\System.Web.Http.dll
+D:\Projects\MoveIt-app\MoveIt-App\MoveIt.SelfHosted\bin\Debug\System.Web.Http.SelfHost.dll
+D:\Projects\MoveIt-app\MoveIt-App\MoveIt.SelfHosted\bin\Debug\MoveIt.SelfHosted.exe.config
+D:\Projects\MoveIt-app\MoveIt-App\MoveIt.SelfHosted\bin\Debug\MoveIt.SelfHosted.pdb
+D:\Projects\MoveIt-app\MoveIt-App\MoveIt.SelfHosted\bin\Debug\Newtonsoft.Json.xml
+D:\Projects\MoveIt-app\MoveIt-App\MoveIt.SelfHosted\bin\Debug\System.Net.Http.Formatting.xml
+D:\Projects\MoveIt-app\MoveIt-App\MoveIt.SelfHosted\bin\Debug\System.Web.Http.xml
+D:\Projects\MoveIt-app\MoveIt-App\MoveIt.SelfHosted\bin\Debug\System.Web.Http.SelfHost.xml
+D:\Projects\MoveIt-app\MoveIt-App\MoveIt.SelfHosted\obj\Debug\MoveIt.SelfHosted.exe
+D:\Projects\MoveIt-app\MoveIt-App\MoveIt.SelfHosted\obj\Debug\MoveIt.SelfHosted.pdb
