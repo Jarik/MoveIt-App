@@ -4,7 +4,7 @@ namespace MoveIt.BusinessLogic.Rates
 {
     public abstract class RateBase
     {
-        const int DefaultVolumePerCar = 50;
+        const int DefaultVolumePerCar = 49;
 
         public abstract double StartPrice { get; }
         public abstract double KilometerPrice { get; }
