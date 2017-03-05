@@ -25,6 +25,7 @@ namespace MoveIt.BusinessLogic.Movement.Implementation
             double atticVolume,
             bool piano)
         {
+            // HACK - hard dependency between movement and volume, skipped in case of time
             var volume = this.GetTotalVolume(baseVolume, atticVolume);
 
             var rate = this.CreateRate(this.Distance, volume, piano);

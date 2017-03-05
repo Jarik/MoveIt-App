@@ -44,7 +44,6 @@
     <Compile Include="Conditions\SpecificConditionBase.cs" />
     <Compile Include="Extensions\DistanceExtensions.cs" />
     <Compile Include="Extensions\VolumeExtensions.cs" />
-    <Compile Include="MovementDetails.cs" />
     <Compile Include="Movement\IMovementProcessor.cs" />
     <Compile Include="Movement\Implementation\LargeMovementProcessor.cs" />
     <Compile Include="Movement\Implementation\MediumMovementProcessor.cs" />
